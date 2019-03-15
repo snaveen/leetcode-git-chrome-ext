@@ -1,4 +1,4 @@
-let login = document.getElementById('login');
+var login = document.getElementById('login');
 
 login.onclick = function() {
   var github_worker = new gh();

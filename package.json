@@ -1,0 +1,23 @@
+{
+  "name": "leet-git-commit",
+  "version": "1.0.0",
+  "description": "This commits code from leetcode to your github repo",
+  "main": "background.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snaveen/leetcode-git-chrome-ext.git"
+  },
+  "author": "Naveen Subramanian",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/snaveen/leetcode-git-chrome-ext/issues"
+  },
+  "homepage": "https://github.com/snaveen/leetcode-git-chrome-ext#readme",
+  "dependencies": {}
+}

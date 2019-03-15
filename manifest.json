@@ -13,7 +13,7 @@
     "https://github.com/"
   ],
   "background": {
-    "scripts": ["lib/jquery.min.js", "background.js"],
+    "scripts": ["background.js"],
     "persistent": false
   },
   "page_action": {
