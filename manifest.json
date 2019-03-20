@@ -1,7 +1,7 @@
 {
-  "name": "Getting Started Example",
+  "name": "Git - Leetcode",
   "version": "1.0",
-  "description": "Build an Extension!",
+  "description": "To commit your leetcode's code in git",
   "permissions": [
     "activeTab",
     "declarativeContent",

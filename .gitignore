@@ -2,3 +2,5 @@
 *.iml
 
 config.js
+
+node_modules/
