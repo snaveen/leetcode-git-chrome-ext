@@ -2,15 +2,53 @@
 <html>
 <head>
     <style>
-        button {
-            height: 30px;
-            width: 30px;
-            outline: none;
+        body {
+            height: 200px;
+            width: 320px;
+        }
+        .btn-group{
+            display: inline-block;
+        }
+        .btn-group .button {
+            background-color: #4CAF50;
+            border: 10px solid green;
+            color: white;
+            padding: 10px 22px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 12px;
+            cursor: pointer;
+            float: left;
+        }
+
+        .btn-group .button:not(:last-child) {
+            border-right: none; /* Prevent double borders */
+        }
+
+        .btn-group .button:hover {
+            background-color: #3e8e41;
         }
     </style>
 </head>
 <body>
-<button id="login"></button>
+
+<h2>Welcome to Leet-Git Helper</h2>
+
+<div class="btn-group">
+    <button class="button" id="login">Login</button>
+    <button class="button" style="display: none;" id="logout">Logout</button>
+    <button class="button" style="display: none;" id="submit">Submit to Git</button>
+</div>
+
+<div id="user_info"></div>
+<!--<button id="signin" style="display:none">Sign in</button>-->
+<!--<button id="revoke" style="display:none">Revoke token</button>-->
+<br><b>Your repos:</b> <br>
+<textarea id="user_repos" style="width: 95%; min-height: 200px"></textarea>
+
+<!--<p style="clear:both"><br>Welcome to Leet-Git Helper</p>-->
+
 <script src="popup.js"></script>
 <script type="text/javascript" src="lib/github_api.js"></script>
 <script type="text/javascript" src="config.js"></script>
